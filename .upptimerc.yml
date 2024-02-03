@@ -5,6 +5,7 @@ repo: upptime # The name of this repository
 sites:
   - name: Malang.dev
     url: https://malang.dev
+    verbose: true
   - name: New Jersey - hosteroid.uk
     url: $SITES_SERVER_NJ
   - name: Jakarta - hostdata.id
@@ -22,6 +23,7 @@ sites:
     url: $SITES_ROUNDCUBE_URL
   - name: Blog Wordpress
     url: https://blog.malang.dev
+    verbose: true
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
