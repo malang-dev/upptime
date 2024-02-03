@@ -5,24 +5,14 @@ repo: upptime # The name of this repository
 sites:
   - name: Malang.dev
     url: https://malang.dev
-    headers:
-      - "User-Agent: Malang-dev upptime"
   - name: New Jersey - hosteroid.uk
     url: $SITES_SERVER_NJ
-    headers:
-      - "User-Agent: Malang-dev upptime"
   - name: Jakarta - hostdata.id
     url: $SITES_SERVER_ID
-    headers:
-      - "User-Agent: Malang-dev upptime"
   - name: Malang - cloudflare
     url: $SITES_SERVER_ML
-    headers:
-      - "User-Agent: Malang-dev upptime"
   - name: Passbolt
     url: $SITES_PASSBOLT_URL/healthcheck/status.json
-    headers:
-      - "User-Agent: Malang-dev upptime"
   - name: Docker Mailserver
     check: "tcp-ping"
     url: $SITES_MAILSERVER_URL
@@ -30,12 +20,8 @@ sites:
     ipv6: true
   - name: Roundcube
     url: $SITES_ROUNDCUBE_URL
-    headers:
-      - "User-Agent: Malang-dev upptime"
   - name: Blog Wordpress
     url: https://blog.malang.dev
-    headers:
-      - "User-Agent: Malang-dev upptime"
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
@@ -52,9 +38,9 @@ status-website:
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
-commitMessages:
-  commitAuthorName: "Bramanda Suwandi"
-  commitAuthorEmail: "bramanda48@gmail.com"
+# commitMessages:
+#   commitAuthorName: "Bramanda Suwandi"
+#   commitAuthorEmail: "bramanda48@gmail.com"
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
