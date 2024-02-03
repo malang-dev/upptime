@@ -3,3 +3,8 @@
   --nav-border-bottom-color: #08213d;
   --nav-current-border-bottom-color: #ffffff;
 }
+
+nav ul li {
+  color: #ffffff;
+  font-weight: bold;
+}
