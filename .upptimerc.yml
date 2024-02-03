@@ -13,6 +13,8 @@ sites:
     url: $SITES_SERVER_ML
   - name: Passbolt
     url: $SITES_PASSBOLT_URL/healthcheck/status.json
+    headers:
+      - "Content-Type: application/json"
   - name: Docker Mailserver
     check: "tcp-ping"
     url: $SITES_MAILSERVER_URL
