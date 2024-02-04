@@ -8,6 +8,8 @@ user-agent: malang-dev
 sites:
   - name: Malang.dev
     url: https://malang.dev
+    headers:
+      - "User-Agent: malang-dev uptime"
   - name: New Jersey - hosteroid.uk
     url: $SITES_SERVER_NJ
   - name: Jakarta - hostdata.id
