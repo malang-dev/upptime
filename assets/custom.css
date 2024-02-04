@@ -8,3 +8,7 @@ nav ul li {
   color: #ffffff;
   font-weight: bold;
 }
+
+nav .logo img {
+  width: 70%;
+}
