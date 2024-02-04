@@ -4,12 +4,11 @@ repo: upptime # The name of this repository
 
 # User agent is mandatory. if not set response will be 403.
 # Reference: https://docs.github.com/en/rest/using-the-rest-api/getting-started-with-the-rest-api?apiVersion=2022-11-28#user-agent
-user-agent: malang-dev
+user-agent: bramanda48
+
 sites:
   - name: Malang.dev
     url: https://malang.dev
-    headers:
-      - "User-Agent: malang-dev"
   - name: New Jersey - hosteroid.uk
     url: $SITES_SERVER_NJ
   - name: Jakarta - hostdata.id
@@ -30,6 +29,9 @@ sites:
   - name: Blog Wordpress
     url: https://blog.malang.dev
 
+assignees: # Users to assign downtime issues (optional)
+  - bramanda48
+  
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
