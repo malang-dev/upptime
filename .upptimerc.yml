@@ -40,7 +40,7 @@ status-website:
   theme: light
   themeUrl: https://status.malang.dev/custom.css
   introTitle: "**Malang.dev** uptime monitor and status page. powered entirely by GitHub."
-  introMessage: ""
+  introMessage: "See the status and check for outages for malang.dev service and more."
   navbar:
     - title: Status
       href: /
