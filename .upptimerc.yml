@@ -19,11 +19,6 @@ sites:
     url: $SITES_PASSBOLT_URL/healthcheck/status.json
     headers:
       - "Content-Type: application/json"
-  - name: Docker Mailserver
-    check: "tcp-ping"
-    url: $SITES_MAILSERVER_URL
-    port: 587
-    ipv6: true
   - name: Roundcube
     url: $SITES_ROUNDCUBE_URL
   - name: Blog Wordpress
