@@ -13,6 +13,7 @@
 # * Docs and more: https://upptime.js.org
 # * More by Anand Chowdhary: https://anandchowdhary.com
 
+
 name: Response Time CI
 on:
   schedule:
@@ -30,10 +31,6 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GH_PAT || github.token }}
-      - name: Set up WARP
-        uses: fscarmen/warp-on-actions@v1.1
-        with:
-          stack: dual
       - name: Update response time
         uses: upptime/uptime-monitor@v1.36.4
         with:
