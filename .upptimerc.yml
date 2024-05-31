@@ -8,7 +8,7 @@ user-agent: bramanda48
 
 sites:
   - name: Malang.dev
-    url: https://malang.dev
+    url: https://malang.agency
   - name: New Jersey - hosteroid.uk
     url: $SITES_SERVER_NJ
   - name: Jakarta - hostdata.id
@@ -22,7 +22,7 @@ sites:
   - name: Roundcube
     url: $SITES_ROUNDCUBE_URL
   - name: Blog Wordpress
-    url: https://blog.malang.dev
+    url: https://blog.malang.agency
 
 assignees: # Users to assign downtime issues (optional)
   - bramanda48
