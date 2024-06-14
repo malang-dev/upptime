@@ -1,0 +1,14 @@
+:root {
+  --nav-background-color: #08213d;
+  --nav-border-bottom-color: #08213d;
+  --nav-current-border-bottom-color: #ffffff;
+}
+
+nav ul li {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+nav .logo img {
+  width: 70%;
+}
