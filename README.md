@@ -1,5 +1,5 @@
 # [📈 Live Status](https://malang-dev.github.io/upptime): <!--live status--> **🟩 All systems operational**
-
+ 
 This repository contains the open-source uptime monitor and status page for [Malang.dev](https://malang.dev), powered by [Upptime](https://github.com/upptime/upptime).
 
 [![Uptime CI](https://github.com/malang-dev/upptime/workflows/Uptime%20CI/badge.svg)](https://github.com/malang-dev/upptime/actions?query=workflow%3A%22Uptime+CI%22)
