@@ -1,7 +1,7 @@
 url: $SITES_SERVER_ML
-status: down
-code: 530
-responseTime: 86
-lastUpdated: 2024-06-19T03:37:43.541Z
+status: up
+code: 200
+responseTime: 942
+lastUpdated: 2024-06-19T04:27:14.758Z
 startTime: 2024-02-03T15:40:25.651Z
 generator: Upptime <https://github.com/upptime/upptime>
