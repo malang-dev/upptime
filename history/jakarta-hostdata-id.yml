@@ -1,7 +1,7 @@
 url: $SITES_SERVER_ID
-status: up
-code: 200
-responseTime: 781
-lastUpdated: 2024-11-02T18:37:33.647Z
+status: down
+code: 0
+responseTime: 0
+lastUpdated: 2024-11-02T19:30:51.585Z
 startTime: 2024-02-03T15:40:24.461Z
 generator: Upptime <https://github.com/upptime/upptime>
