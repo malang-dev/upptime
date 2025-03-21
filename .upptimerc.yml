@@ -11,8 +11,6 @@ sites:
     url: https://malang.agency
   - name: New Jersey - hosteroid.uk
     url: $SITES_SERVER_NJ
-  - name: Malang - cloudflare
-    url: $SITES_SERVER_ML
   - name: Passbolt
     url: $SITES_PASSBOLT_URL/healthcheck/status.json
     headers:
