@@ -9,8 +9,6 @@ user-agent: bramanda48
 sites:
   - name: Malang.dev
     url: https://malang.agency
-  - name: New Jersey - hosteroid.uk
-    url: $SITES_SERVER_NJ
   - name: Passbolt
     url: $SITES_PASSBOLT_URL/healthcheck/status.json
     headers:
