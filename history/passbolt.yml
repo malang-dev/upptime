@@ -1,7 +1,7 @@
 url: $SITES_PASSBOLT_URL/healthcheck/status.json
 status: up
 code: 200
-responseTime: 1481
-lastUpdated: 2025-03-22T05:51:46.652Z
+responseTime: 1531
+lastUpdated: 2025-03-22T23:13:20.960Z
 startTime: 2024-02-03T15:40:26.144Z
 generator: Upptime <https://github.com/upptime/upptime>
